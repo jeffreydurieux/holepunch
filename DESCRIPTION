@@ -3,11 +3,11 @@ Package: My compendium
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.1
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Jeffrey",
+           family = "Durieux",
            role = c("aut", "cre"),
            email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           comment = c(ORCID = "0000-0001-7888-8386"))
 Description: holepunch package example
 License: What license it uses
 Depends: 
@@ -16,6 +16,7 @@ Depends:
     ggplot2,
     lubridate,
     tidyr,
-    viridis
+    viridis,
+    ica
 Encoding: UTF-8
 LazyData: true
