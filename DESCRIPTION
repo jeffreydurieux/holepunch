@@ -3,20 +3,20 @@ Package: My compendium
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.1
 Authors@R: 
-    person(given = "Jeffrey",
-           family = "Durieux",
+    person(given = "First",
+           family = "Last",
            role = c("aut", "cre"),
            email = "first.last@example.com",
-           comment = c(ORCID = "0000-0001-7888-8386"))
+           comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: holepunch package example
 License: What license it uses
 Depends: 
     dataRetrieval,
     dplyr,
     ggplot2,
+    ica,
     lubridate,
     tidyr,
-    viridis,
-    ica
+    viridis
 Encoding: UTF-8
 LazyData: true
